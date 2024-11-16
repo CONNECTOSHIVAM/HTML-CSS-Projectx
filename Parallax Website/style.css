@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-light {
+    background: #f4f4f4;
+    color: black;
+}
+
+.section-dark {
+    background: #282e34;
+    color: white;
+}
+
+.first-image {
+    background-image: url(one.jpg);
+    min-height: 500px;
+    opacity: 0.8;
+}
+
+.second-image {
+    background-image: url(Two.jpg);
+    min-height: 500px;
+}
+
+.third-image {
+    background-image: url(pic2.jpg);
+    min-height: 500px;
+}
+
+.image {
+    background-attachment: fixed;
+    background-size: cover;
+}
